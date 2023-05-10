@@ -2,9 +2,6 @@
 
 En este repositorio se encontrarán los comandos necesarios para realizar los ejercicios propuestos.
 
-
-
----
 ## EJERCICIO 1
 1. *db.articulos.find()*
 2. *db.articulos.find({rubro: {$ne: 'impresora'}})*
