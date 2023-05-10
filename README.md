@@ -64,3 +64,44 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 1. *db.zips.find({pop: {$gte: 10000000}}) -> No sale ningún estado que supere los 10M de habitantes*
 2. *db.zips.aggregate([{$group: {_id: "$state", Población: {$avg: "$pop"}}},{$sort: {Población:-1}}])*
 3. *db.zips.aggregate([{$sort: {pop:-1}},{$group: {_id: "$state", Más_poblada:{$first: "$city"}, Menos_poblada: {$last: "$city"}}}])*
+
+## EJERCICIO 11
+/*db.createCollection("posts", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["titulo", "cuerpo"],
+      properties: {
+        titulo: {
+          bsonType: "string"
+        },
+        cuerpo: {
+          bsonType: "string"
+        },
+        categoria: {
+          bsonType: ["string", "null"]
+        },
+        likes: {
+          bsonType: ["int", "null"]
+        },
+        tags: {
+          bsonType: ["array", "null"],
+          items: {
+            bsonType: "string"
+          }
+        },
+        fecha: {
+          bsonType: ["date", "null"]
+        }
+      }
+    }
+  }
+})*/
+
+## EJERCICIO 12
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
