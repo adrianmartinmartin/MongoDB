@@ -1,4 +1,4 @@
-# MongoDB
+# MONGODB
 
 En este repositorio se encontrarán los comandos necesarios para realizar los ejercicios propuestos.
 
@@ -9,13 +9,6 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 4. *db.articulos.find({precio: {$gte: 5000}})*
 5. *db.articulos.find({rubro: 'impresora', precio: {$gte: 3500}})*
 6. *db.articulos.find({stock: {$gte: 0, $lte: 4}})*
----
-
-
-
-
-
-
 
 ## EJERCICIO 2
 1. *db.articulos.find()*
@@ -66,5 +59,3 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 
 ## EJERCICIO 9
 *db.universities.aggregate([{$unwind: "$students"}, {$group: {_id: "$name", totalStudents: {$sum: "$students.number"}}}, {$sort: {totalStudents: -1}}])*
-
-
