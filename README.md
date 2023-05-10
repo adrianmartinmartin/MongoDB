@@ -17,7 +17,7 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 3. *db.articulos.deleteMany({_id: {$gte: 5}})*
 
 ## EJERCICIO 3
-1. *db.articulos.find()
+1. *db.articulos.find()*
 2. *db.articulos.updateOne({nombre: 'LOGITECH M90'},{$set: {precio: 350}})*
 3. *db.articulos.updateOne({_id: 6},{$set: {stock: 0}})*
 4. *db.articulos.updateOne({_id: 6},{$set: {proveedores: ['Martinez','Gutierrez']}})*
