@@ -1,8 +1,10 @@
 # MongoDB
 
 En este repositorio se encontrarán los comandos necesarios para realizar los ejercicios propuestos.
+
 ---
 
+---
 ## EJERCICIO 1
 1. *db.articulos.find()*
 2. *db.articulos.find({rubro: {$ne: 'impresora'}})*
@@ -10,6 +12,13 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 4. *db.articulos.find({precio: {$gte: 5000}})*
 5. *db.articulos.find({rubro: 'impresora', precio: {$gte: 3500}})*
 6. *db.articulos.find({stock: {$gte: 0, $lte: 4}})*
+---
+
+
+
+
+
+
 
 ## EJERCICIO 2
 1. *db.articulos.find()*
