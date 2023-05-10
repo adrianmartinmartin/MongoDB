@@ -61,6 +61,6 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 *db.universities.aggregate([{$unwind: "$students"}, {$group: {_id: "$name", totalStudents: {$sum: "$students.number"}}}, {$sort: {totalStudents: -1}}])*
 
 ## EJERCICIO 10
-1. *db.zips.find({pop: {$gte: 10000000}}) -> No sale ningún estado que supere los 10M de habitantes*
+1. *db.zips.find({pop: {$gte: 10000000}}) $\rightarrow$ No sale ningún estado que supere los 10M de habitantes*
 2. *db.zips.aggregate([{$group: {_id: "$state", Población: {$avg: "$pop"}}},{$sort: {Población:-1}}])*
 3. *db.zips.aggregate([{$sort: {pop:-1}},{$group: {_id: "$state", Más_poblada:{$first: "$city"}, Menos_poblada: {$last: "$city"}}}])*
