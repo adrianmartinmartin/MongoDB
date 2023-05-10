@@ -11,13 +11,13 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 5. *db.articulos.find({rubro: 'impresora', precio: {$gte: 3500}})*
 6. *db.articulos.find({stock: {$gte: 0, $lte: 4}})*
 
-# EJERCICIO 2
+### EJERCICIO 2
 1. *db.articulos.find()*
 2. *db.articulos.deleteMany({rubro: 'impresora'})*
    *db.articulos.deleteMany({rubro: {$eq: 'impresora'}})*
 3. *db.articulos.deleteMany({_id: {$gte: 5}})*
 
-# EJERCICIO 3
+#### EJERCICIO 3
 1. *db.articulos.find()
 2. *db.articulos.updateOne({nombre: 'LOGITECH M90'},{$set: {precio: 350}})*
 3. *db.articulos.updateOne({_id: 6},{$set: {stock: 0}})*
