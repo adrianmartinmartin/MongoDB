@@ -57,3 +57,8 @@ EJERCICIO 8
 2. *db.alumnos.find({}, {apellido: 1, fechanacimiento: 1, _id: 0})*
 3. *db.alumnos.find().sort({fechanacimiento:1})*
 4. *db.alumnos.find({fechanacimiento: {$gte: new Date(1970, 01, 1)}})*
+
+# EJERCICIO 9
+*db.universities.aggregate([{$unwind: "$students"}, {$group: {_id: "$name", totalStudents: {$sum: "$students.number"}}}, {$sort: {totalStudents: -1}}])*
+
+
