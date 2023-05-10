@@ -4,7 +4,7 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
 
 
 EJERCICIO 1
-1. *db.articulos.find()
+1. *db.articulos.find()*
 2. *db.articulos.find({rubro: {$ne: 'impresora'}})
 3. *db.articulos.find({rubro: {$eq: 'mouse'}})
 4. *db.articulos.find({precio: {$gte: 5000}})
