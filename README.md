@@ -97,11 +97,3 @@ En este repositorio se encontrarán los comandos necesarios para realizar los ej
     }
   }
 })*/
-
-## EJERCICIO 12
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
